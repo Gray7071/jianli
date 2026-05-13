@@ -1,0 +1,52 @@
+{
+  "nav": {
+    "about": "关于",
+    "skills": "技能",
+    "projects": "项目",
+    "experience": "经历",
+    "contact": "联系"
+  },
+  "language": {
+    "switch": "EN"
+  },
+  "hero": {
+    "greeting": "你好，我是",
+    "name": "靳国豪",
+    "title": "嵌入式软件工程师",
+    "subtitle": "长春大学 电气工程及其自动化 本科在读 · 专注于嵌入式 Linux 驱动与 STM32 底层开发",
+    "cta_projects": "查看项目",
+    "cta_contact": "联系我"
+  },
+  "about": {
+    "title": "关于我",
+    "p1": "我目前就读于长春大学电气工程及其自动化专业（2022.09~至今），GPA 3.71（14/100）。主修课程包括 C 语言程序设计、电路原理、模拟/数字电路、自动控制原理、信号与系统及单片机原理等。",
+    "p2": "在技术方面，我熟练掌握 C 语言，掌握 C++、Shell 脚本。熟悉 Linux 驱动开发（设备树、Platform 模型、内核裁剪与移植），掌握 GPIO、UART、I2C、SPI、CAN、EtherCAT 等外设驱动。熟悉 STM32 及 Cortex-M 架构，精通 DMA、ADC、DAC、定时器等外设的底层开发。了解 ARM Cortex-A 系列（RK3568/3588）工业级 Linux 开发板。",
+    "p3": "我曾获全国大学生电子设计大赛省一等奖、全国大学生智能车竞赛省二等奖、两次国家励志奖学金。我热衷于探索嵌入式底层技术，享受从硬件到应用层的全链路开发过程。"
+  },
+  "skills": {
+    "title": "技术能力",
+    "languages": "编程语言",
+    "mcu": "MCU & MPU 平台",
+    "linux": "Linux & 驱动",
+    "tools": "开发工具 & AI 工具",
+    "control": "控制算法 & 低功耗"
+  },
+  "projects": {
+    "title": "项目经历",
+    "view_code": "源码",
+    "view_demo": "演示"
+  },
+  "experience": {
+    "title": "经历"
+  },
+  "contact": {
+    "title": "联系我",
+    "subtitle": "如果你对我的项目感兴趣，或者有合适的工作机会，欢迎与我联系",
+    "email": "邮箱",
+    "phone": "电话",
+    "github": "GitHub"
+  },
+  "footer": {
+    "copyright": "© 2025 靳国豪. All rights reserved."
+  }
+}

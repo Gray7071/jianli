@@ -1,0 +1,52 @@
+{
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "experience": "Experience",
+    "contact": "Contact"
+  },
+  "language": {
+    "switch": "中文"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Guohao Jin",
+    "title": "Embedded Software Engineer",
+    "subtitle": "Changchun University · Electrical Engineering · Focused on Embedded Linux Drivers & STM32 Low-Level Development",
+    "cta_projects": "View Projects",
+    "cta_contact": "Contact Me"
+  },
+  "about": {
+    "title": "About Me",
+    "p1": "I am currently an undergraduate student at Changchun University, majoring in Electrical Engineering and Automation (2022.09 – Present), with a GPA of 3.71 (14/100). My coursework includes C Programming, Circuit Theory, Analog/Digital Circuits, Automatic Control Theory, Signals & Systems, and MCU Principles.",
+    "p2": "Technically, I am proficient in C, with working knowledge of C++ and Shell scripting. I have hands-on experience with Linux driver development (Device Tree, Platform model, kernel porting and optimization), and peripheral drivers including GPIO, UART, I2C, SPI, CAN, and EtherCAT. I am skilled in STM32 Cortex-M architecture and low-level development of DMA, ADC, DAC, and timers. I also have experience with ARM Cortex-A series (RK3568/3588) industrial-grade Linux development boards.",
+    "p3": "I have won 1st prize (province level) in the National College Electronic Design Contest, 2nd prize in the National Smart Car Competition, and the National Motivational Scholarship twice. I am passionate about exploring low-level embedded technology and enjoy full-stack embedded development from hardware to application."
+  },
+  "skills": {
+    "title": "Technical Skills",
+    "languages": "Programming Languages",
+    "mcu": "MCU & MPU Platforms",
+    "linux": "Linux & Drivers",
+    "tools": "Dev Tools & AI Tools",
+    "control": "Control Algorithms & Low-Power"
+  },
+  "projects": {
+    "title": "Projects",
+    "view_code": "Source Code",
+    "view_demo": "Live Demo"
+  },
+  "experience": {
+    "title": "Experience"
+  },
+  "contact": {
+    "title": "Contact Me",
+    "subtitle": "If you're interested in my projects or have job opportunities, feel free to reach out",
+    "email": "Email",
+    "phone": "Phone",
+    "github": "GitHub"
+  },
+  "footer": {
+    "copyright": "© 2025 Guohao Jin. All rights reserved."
+  }
+}
