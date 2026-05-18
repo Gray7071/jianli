@@ -20,6 +20,18 @@
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
 }
 
+.project-video {
+  width: 100%;
+  background: #000;
+}
+
+.project-video video {
+  width: 100%;
+  display: block;
+  max-height: 260px;
+  object-fit: contain;
+}
+
 .project-card-body {
   padding: 24px;
   flex: 1;
@@ -72,14 +84,6 @@
 
 .project-link:hover {
   color: var(--color-accent-hover);
-}
-
-.project-link-demo {
-  color: var(--color-text-secondary);
-}
-
-.project-link-demo:hover {
-  color: var(--color-text);
 }
 
 @media (max-width: 640px) {

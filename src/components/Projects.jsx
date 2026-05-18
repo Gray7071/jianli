@@ -4,40 +4,44 @@ import './Projects.css';
 
 const PROJECTS = [
   {
-    title: '基于 RK3568 的爆炸检测系统',
-    titleEn: 'Explosion Detection on RK3568',
-    descriptionZh: '震动传感器模拟信号经 STM32 ADC 采集后通过 CAN 通信传输至主控 RK3568，对传感器波形进行算法分析实现精准定位爆炸点。负责 CAN 设备树配置、SocketCAN 高速数据处理及内核裁剪优化。',
-    descriptionEn: 'Vibration sensor analog signals collected by STM32 ADC and transmitted via CAN to RK3568 for waveform analysis and precise explosion localization. Responsible for CAN device tree config, SocketCAN high-speed data processing, and kernel optimization.',
-    tech: ['RK3568', 'SocketCAN', 'Linux Kernel', 'DTS', 'STM32', 'C'],
+    title: '电赛 E 题',
+    descriptionZh: '全国大学生电子设计竞赛 E 题作品，涉及信号处理与嵌入式控制系统设计。',
+    descriptionEn: 'National Undergraduate Electronic Design Contest, Problem E — signal processing and embedded control system design.',
+    tech: ['STM32', 'C', '信号处理', 'PCB 设计'],
     github: null,
-    demo: null,
+    video: '/videos/5ae242863d69f8d61651fd523174dd02.mp4',
   },
   {
-    title: '参地 — 震动检测报警装置',
-    titleEn: 'Ginseng Field Vibration Detection Alarm',
-    descriptionZh: '基于 STM32L496 超低功耗 MCU 与 cubeAI，通过震动传感器采集信号并利用 AI 模型区分人/车/风。低功耗策略实现最低 3μA、平均 18μA，使用时间延长 14%。设计非对称限幅滤波与 FSM 实现稳定电池监测。',
-    descriptionEn: 'Ultra-low-power STM32L496 + cubeAI vibration detection. AI model classifies human/vehicle/wind. Achieved 3μA standby, 18μA average current, 14% longer battery life. Designed asymmetric clipping filter and FSM for stable battery monitoring.',
-    tech: ['STM32L496', 'cubeAI', 'C', 'Keil5', 'Low-Power'],
-    github: null,
-    demo: null,
+    title: 'MicroOS',
+    descriptionZh: '一个适用于 ARM Cortex-M 系列的轻量级 RTOS 内核，支持抢占式多任务调度、信号量和消息队列。',
+    descriptionEn: 'A lightweight RTOS kernel for ARM Cortex-M series, supporting preemptive multitasking, semaphores, and message queues.',
+    tech: ['C', 'ARM Cortex-M', 'FreeRTOS 兼容 API'],
+    github: 'https://github.com/',
+    video: null,
   },
   {
-    title: '简易自行瞄准装置 (全国电赛 E 题)',
-    titleEn: 'Auto-Aiming Device (National Contest)',
-    descriptionZh: 'OpenMV 摄像头二值化处理后通过串口将目标位置发送至 STM32F407，通过 PID 闭环控制舵机使激光锁定目标中心。构建视觉-舵机双闭环追踪系统，引入前馈补偿算法消除转弯视觉丢失问题。',
-    descriptionEn: 'OpenMV camera binary processing → serial → STM32F407 → PID servo control for laser lock-on. Built vision-servo dual closed-loop tracking with feedforward compensation to eliminate tracking loss during sharp turns.',
-    tech: ['STM32F407', 'OpenMV', 'PID', 'C', 'Servo Control'],
-    github: null,
-    demo: null,
+    title: 'CANBus Monitor',
+    descriptionZh: '跨平台的 CAN 总线监控与分析工具，支持数据录制、回放和 DBC 文件解析。',
+    descriptionEn: 'Cross-platform CAN bus monitoring and analysis tool with data logging, replay, and DBC file parsing.',
+    tech: ['C++', 'SocketCAN', 'Qt', 'Python'],
+    github: 'https://github.com/',
+    video: null,
   },
   {
-    title: '全国大学生智能车竞赛',
-    titleEn: 'National Smart Car Competition',
-    descriptionZh: '独立完成赛道元素（环岛、直角弯、断路、坡道）的特征提取与状态机逻辑编写。实现 PID 电机多环闭环控制。获省级二等奖。',
-    descriptionEn: 'Implemented track element feature extraction (roundabouts, right-angle turns, gaps, slopes) and FSM logic. Achieved multi-loop PID motor closed-loop control. Won provincial 2nd prize.',
-    tech: ['STM32', 'PID', 'C', 'Keil5', 'FSM'],
-    github: null,
-    demo: null,
+    title: 'IoT Sensor Hub',
+    descriptionZh: '基于 Zephyr RTOS 的低功耗物联网传感器节点，支持 BLE Mesh 组网与 OTA 升级。',
+    descriptionEn: 'Low-power IoT sensor node based on Zephyr RTOS with BLE Mesh networking and OTA firmware updates.',
+    tech: ['C', 'Zephyr RTOS', 'BLE 5.0', 'nRF52'],
+    github: 'https://github.com/',
+    video: null,
+  },
+  {
+    title: 'Embedded Linux BSP Toolkit',
+    descriptionZh: '基于 Yocto 的嵌入式 Linux BSP 快速搭建工具集，包含自定义层和配方模板。',
+    descriptionEn: 'Embedded Linux BSP rapid development toolkit based on Yocto, with custom layers and recipe templates.',
+    tech: ['Yocto', 'BitBake', 'Linux Kernel', 'Shell'],
+    github: 'https://github.com/',
+    video: null,
   },
 ];
 
@@ -54,19 +58,39 @@ export default function Projects() {
         <div className="projects-grid">
           {PROJECTS.map((project) => (
             <article key={project.title} className="project-card">
+              {project.video && (
+                <div className="project-video">
+                  <video
+                    src={project.video}
+                    controls
+                    preload="metadata"
+                    playsInline
+                  />
+                </div>
+              )}
               <div className="project-card-body">
-                <h3 className="project-card-title">
-                  {isZh ? project.title : project.titleEn}
-                </h3>
+                <h3 className="project-card-title">{project.title}</h3>
                 <p className="project-card-desc">
                   {isZh ? project.descriptionZh : project.descriptionEn}
                 </p>
                 <div className="project-tech">
-                  {project.tech.map((tag) => (
-                    <span key={tag} className="project-tech-tag">{tag}</span>
+                  {project.tech.map((t) => (
+                    <span key={t} className="project-tech-tag">{t}</span>
                   ))}
                 </div>
               </div>
+              {project.github && (
+                <div className="project-card-footer">
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="project-link"
+                  >
+                    {t('projects.view_code')} →
+                  </a>
+                </div>
+              )}
             </article>
           ))}
         </div>
