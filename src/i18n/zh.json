@@ -1,0 +1,50 @@
+{
+  "nav": {
+    "about": "关于",
+    "skills": "技能",
+    "projects": "项目",
+    "experience": "经历",
+    "contact": "联系"
+  },
+  "language": {
+    "switch": "EN"
+  },
+  "hero": {
+    "greeting": "你好，我是",
+    "name": "靳国豪",
+    "title": "机器人系统工程师",
+    "subtitle": "长春大学 电气工程及其自动化 大三在读，主攻机器人系统与嵌入式 Linux 开发方向，正在寻找实习机会",
+    "cta_projects": "查看项目",
+    "cta_contact": "联系我"
+  },
+  "about": {
+    "title": "关于我",
+    "p1": "我目前就读于长春大学电气工程及其自动化专业（大三），主攻机器人系统与嵌入式开发方向。我热衷于在资源受限的硬件上编写高效、可靠的代码，从 STM32 微控制器到嵌入式 Linux 系统都有实际项目经验。",
+    "p2": "我的技术栈涵盖 C/C++、Linux 驱动开发、ROS2 机器人框架、STM32 及 Cortex-M 系列架构，以及常用的工业通信协议（UART、I2C、SPI、SocketCAN、EtherCAT）。享受从硬件到底层驱动的全链路开发过程。",
+    "p3": "课余时间，我积极参与学科竞赛与开源项目，乐于将理论付诸实践。我相信技术的力量在于分享与协作，也一直致力于将个人项目开源，与社区共同成长。"
+  },
+  "skills": {
+    "title": "技术能力",
+    "languages": "编程语言",
+    "systems": "系统 & 平台",
+    "tools": "工具 & 其他"
+  },
+  "projects": {
+    "title": "项目经历",
+    "view_code": "源码",
+    "view_demo": "演示"
+  },
+  "experience": {
+    "title": "实习与竞赛"
+  },
+  "contact": {
+    "title": "联系我",
+    "subtitle": "如果你对我的项目感兴趣，或者有合适的实习机会，欢迎与我联系",
+    "email": "邮箱",
+    "github": "GitHub",
+    "phone": "电话"
+  },
+  "footer": {
+    "copyright": "© 2026 靳国豪. All rights reserved."
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "experience": "Experience",
+    "contact": "Contact"
+  },
+  "language": {
+    "switch": "中文"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Guohao Jin",
+    "title": "Robotics System Engineer",
+    "subtitle": "Junior EE student at Changchun University, focused on robotics systems and embedded Linux — seeking internship opportunities",
+    "cta_projects": "View Projects",
+    "cta_contact": "Contact Me"
+  },
+  "about": {
+    "title": "About Me",
+    "p1": "I am a junior-year student at Changchun University, majoring in Electrical Engineering and Automation, with a focus on robotics systems and embedded development. I am passionate about writing efficient, reliable code for resource-constrained hardware, with hands-on project experience from STM32 microcontrollers to embedded Linux systems.",
+    "p2": "My tech stack covers C/C++, Linux driver development, ROS2 robotics framework, STM32 and Cortex-M architectures, and common industrial communication protocols (UART, I2C, SPI, SocketCAN, EtherCAT). I enjoy the full-stack embedded development process from hardware to low-level drivers.",
+    "p3": "Outside of coursework, I actively participate in engineering competitions and open-source projects. I believe technology grows through sharing and collaboration, and I am committed to open-sourcing my work and learning alongside the community."
+  },
+  "skills": {
+    "title": "Technical Skills",
+    "languages": "Programming Languages",
+    "systems": "Systems & Platforms",
+    "tools": "Tools & Others"
+  },
+  "projects": {
+    "title": "Projects",
+    "view_code": "Source Code",
+    "view_demo": "Live Demo"
+  },
+  "experience": {
+    "title": "Internship & Competitions"
+  },
+  "contact": {
+    "title": "Contact Me",
+    "subtitle": "If you're interested in my projects or have internship opportunities, feel free to reach out",
+    "email": "Email",
+    "github": "GitHub",
+    "phone": "Phone"
+  },
+  "footer": {
+    "copyright": "© 2026 Guohao Jin. All rights reserved."
+  }
+}
