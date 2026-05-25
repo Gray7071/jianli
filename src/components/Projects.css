@@ -1,3 +1,16 @@
+#projects.section {
+  background: var(--color-bg-secondary);
+  max-width: none;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+#projects.section > div {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0;
+}
+
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

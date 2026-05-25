@@ -1,6 +1,7 @@
 :root {
   --color-bg: #fafafa;
   --color-bg-secondary: #f3f4f6;
+  --color-bg-alt: #f0f4ff;
   --color-surface: #ffffff;
   --color-border: #e5e7eb;
   --color-text: #111827;
@@ -19,6 +20,7 @@
 [data-theme='dark'] {
   --color-bg: #0f172a;
   --color-bg-secondary: #1e293b;
+  --color-bg-alt: #172033;
   --color-surface: #1e293b;
   --color-border: #334155;
   --color-text: #f1f5f9;

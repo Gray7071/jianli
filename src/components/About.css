@@ -40,49 +40,6 @@
   color: var(--color-text-secondary);
 }
 
-/* Honors gallery */
-.honors-section {
-  margin-top: 64px;
-}
-
-.honors-title {
-  font-size: 1.5rem;
-  font-weight: 700;
-  margin-bottom: 32px;
-}
-
-.honors-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 16px;
-}
-
-.honor-card {
-  aspect-ratio: 3 / 4;
-  border-radius: var(--radius);
-  overflow: hidden;
-  cursor: pointer;
-  background: var(--color-bg-secondary);
-  border: 1px solid var(--color-border);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.honor-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
-}
-
-.honor-card img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.4s ease;
-}
-
-.honor-card:hover img {
-  transform: scale(1.05);
-}
-
 @media (max-width: 768px) {
   .about-grid {
     grid-template-columns: 1fr;
@@ -95,19 +52,5 @@
   .highlight-item {
     flex: 1;
     min-width: 140px;
-  }
-  .honors-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 12px;
-  }
-  .honors-section {
-    margin-top: 48px;
-  }
-}
-
-@media (max-width: 480px) {
-  .honors-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 8px;
   }
 }
