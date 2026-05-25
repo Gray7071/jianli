@@ -32,7 +32,7 @@ export default function About() {
               </span>
             </div>
             <div className="highlight-item">
-              <span className="highlight-number">STM32 / Jetson</span>
+              <span className="highlight-number">Jetson / RK3568</span>
               <span className="highlight-label">
                 {isZh ? '常用开发平台' : 'Dev Platforms'}
               </span>

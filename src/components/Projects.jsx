@@ -36,7 +36,7 @@ const PROJECTS = [
     descriptionZh: 'STM32F407 + OpenMV 视觉追踪系统，构建视觉-舵机双闭环控制，引入底盘转向前馈补偿算法解决直角弯激光脱靶问题。独立完成赛道元素特征提取与状态机逻辑，获省一等奖。',
     descriptionEn: 'STM32F407 + OpenMV visual tracking system with dual closed-loop vision-servo control. Solved laser target loss on sharp turns with chassis steering feedforward compensation. Independently implemented track feature extraction & state machine. Won Provincial 1st Prize.',
     tech: ['STM32F407', 'OpenMV', 'PID', 'C', 'Keil5'],
-    video: '/videos/5ae242863d69f8d61651fd523174dd02.mp4',
+    video: './videos/5ae242863d69f8d61651fd523174dd02.mp4',
   },
 ];
 

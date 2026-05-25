@@ -10,7 +10,7 @@ export default function Hero() {
     <section id="hero" className="hero">
       <img
         className="hero-bg"
-        src="/honors/b7f176f3e6cdf90196ceb8099ba02be8.jpg"
+        src="./honors/b7f176f3e6cdf90196ceb8099ba02be8.jpg"
         alt=""
       />
       <div className="hero-overlay" />
